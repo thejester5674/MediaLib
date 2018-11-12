@@ -7,10 +7,6 @@
  */
 public class MediaLib
 {
-    {
-    String t = song2.getTitle();
-    MediaFile.writeString(song2.getTitle());
-}
     public static void main ()
     {
         System.out.println("Welcome to your Media Library");
@@ -92,5 +88,9 @@ public class MediaLib
         System.out.print("Price: $");
         System.out.println(book2.getPrice());
         
+        
+        String t = song2.getTitle();
+        MediaFile.writeString(song2.getTitle() + " | " + song2.getRating());
+        MediaFile.saveAndClose();
     }
 }
