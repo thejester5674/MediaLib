@@ -1,11 +1,10 @@
 public class LoopingMediaLib
 {
-    public static void main()
-    {
-    String songInfo = MediaFile.readString();
-    System.out.println(songInfo);
-    System.out.println(MediaFile.readString());
-    
-    
-    }
+   public static void main()
+{
+   for(int i = 0; i < 3; i++)
+   {
+        System.out.println(MediaFile.readString());
+   }
+}
 }
