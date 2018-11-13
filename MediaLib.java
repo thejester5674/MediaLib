@@ -34,6 +34,16 @@ public class MediaLib
         System.out.print("Price: $");
         System.out.println(song2.getPrice());
         System.out.println("");
+
+        Song song3 = new Song("The Sponge", 25, 58.08);
+        System.out.println("Song 3");
+        System.out.println("Title: ");
+        System.out.println(song3.getTitle());
+        System.out.print("Rating: ");
+        System.out.println(song3.getRating());
+        System.out.print("Price: $");
+        System.out.println(song3.getPrice());
+        System.out.println("");
         
         Movie movie1 = new Movie();
         System.out.println("Movie 1");
@@ -87,10 +97,10 @@ public class MediaLib
         System.out.println(book2.getRating());
         System.out.print("Price: $");
         System.out.println(book2.getPrice());
-        
-        
-        String t = song2.getTitle();
+
+        MediaFile.writeString(song1.getTitle() + " | " + song1.getRating());
         MediaFile.writeString(song2.getTitle() + " | " + song2.getRating());
+        MediaFile.writeString(song3.getTitle() + " | " + song3.getRating());
         MediaFile.saveAndClose();
     }
 }
