@@ -1,6 +1,1 @@
-Johnny B. Goode | 8
-Johnny B. Badd | 10
-The Sponge | 25
-Call me Maybe|10
-Pokemon Theme Song|80
-ABCs|123
+Johnny B. Goode|8|Johnny B. Badd|10|The Sponge|25|

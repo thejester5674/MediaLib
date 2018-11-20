@@ -5,7 +5,7 @@ public class LoopingMediaLib
    String songInfo = MediaFile.readString();
    for(int i = 0; i < 3; i++)
    {
-        System.out.println(MediaFile.readString());
+        //System.out.println(MediaFile.readString());
    }
    while (songInfo != null)
    {
